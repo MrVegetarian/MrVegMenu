@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
             margin: 0;
             padding: 0;
         }
+
         .menu-container {
             width: 80%;
             margin: 20px auto;
@@ -20,38 +22,45 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
-        h1, h2 {
+
+        h1,
+        h2 {
             text-align: center;
-            color: #d4a017; /* Dark yellow heading */
+            color: #d4a017;
         }
+
         .menu-section {
             margin-bottom: 20px;
         }
+
         .menu-item {
             padding: 10px;
             border-bottom: 1px solid #f5c518;
             transition: background 0.3s;
         }
+
         .menu-item:hover {
-            background-color: #f5c518; /* Dark yellow hover */
+            background-color: #f5c518;
             color: white;
         }
+
         .item-name {
             font-weight: bold;
         }
     </style>
 </head>
-<body>
 
+<body>
     <div class="menu-container">
         <h1>Mr. Vegetarian Menu</h1>
 
+        <!-- Main Course Section -->
         <div class="menu-section">
             <h2>Main Course</h2>
             <div class="menu-item"><span class="item-name">Mushroom Mutter</span></div>
             <div class="menu-item"><span class="item-name">Mushroom Do Piaza</span></div>
             <div class="menu-item"><span class="item-name">Mushroom Masala</span></div>
-            <div class="menu-item"><span class="item-name">Karamt Mushroom</span></div>
+            <div class="menu-item"><span class="item-name">Karahi Mushroom</span></div>
             <div class="menu-item"><span class="item-name">Cream Mushroom</span></div>
             <div class="menu-item"><span class="item-name">Lemon Mushroom</span></div>
             <div class="menu-item"><span class="item-name">Aloo Jeera</span></div>
@@ -60,40 +69,26 @@
             <div class="menu-item"><span class="item-name">Mix Veg</span></div>
             <div class="menu-item"><span class="item-name">Dum Aloo Kashmiri</span></div>
             <div class="menu-item"><span class="item-name">Channa Masala</span></div>
-        </div>
-
-        <div class="menu-section">
-            <h2>Snacks & Starters</h2>
-            <div class="menu-item"><span class="item-name">Masala Macaroni</span></div>
-            <div class="menu-item"><span class="item-name">Red Sauce Pasta</span></div>
-            <div class="menu-item"><span class="item-name">White Sauce Pasta</span></div>
-            <div class="menu-item"><span class="item-name">Pink Sauce Pasta</span></div>
-            <div class="menu-item"><span class="item-name">Masala Chaap</span></div>
-            <div class="menu-item"><span class="item-name">Malai Chaap</span></div>
-            <div class="menu-item"><span class="item-name">Gravy Chaap</span></div>
-            <div class="menu-item"><span class="item-name">Mushroom Tikka</span></div>
-            <div class="menu-item"><span class="item-name">Mushroom Achari</span></div>
-            <div class="menu-item"><span class="item-name">Paneer Tikka</span></div>
-            <div class="menu-item"><span class="item-name">Paneer Achari Tikka</span></div>
-            <div class="menu-item"><span class="item-name">Paneer Malai Tikka</span></div>
-        </div>
-
-        <div class="menu-section">
-            <h2>Street Food</h2>
-            <div class="menu-item"><span class="item-name">Gol Gappe</span></div>
-            <div class="menu-item"><span class="item-name">Papdi Chaat</span></div>
-            <div class="menu-item"><span class="item-name">Dahi Bhalla</span></div>
-            <div class="menu-item"><span class="item-name">Special Dosa</span></div>
-            <div class="menu-item"><span class="item-name">Paneer 65</span></div>
-        </div>
-
-        <div class="menu-section">
-            <h2>Desserts</h2>
             <div class="menu-item"><span class="item-name">Gulab Jamun</span></div>
             <div class="menu-item"><span class="item-name">Mix Fruit Ice Cream</span></div>
             <div class="menu-item"><span class="item-name">Vanilla Ice Cream</span></div>
+            <div class="menu-item"><span class="item-name">Butterscotch Ice Cream</span></div>
+            <div class="menu-item"><span class="item-name">Tutti Frutti Ice Cream</span></div>
         </div>
 
+        <!-- Mr. Vegetarian Specials Section -->
+        <div class="menu-section">
+            <h2>Mr. Vegetarian Specials</h2>
+            <div class="menu-item"><span class="item-name">Gol Gappe</span></div>
+            <div class="menu-item"><span class="item-name">Chaat Papdi</span></div>
+            <div class="menu-item"><span class="item-name">Dahi Bhalla</span></div>
+            <div class="menu-item"><span class="item-name">Special Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Special Biryani</span></div>
+            <div class="menu-item"><span class="item-name">Paneer 65</span></div>
+            <div class="menu-item"><span class="item-name">Special Thali Paneer</span></div>
+        </div>
+
+        <!-- Beverages Section -->
         <div class="menu-section">
             <h2>Beverages</h2>
             <div class="menu-item"><span class="item-name">Black Coffee</span></div>
@@ -105,16 +100,206 @@
             <div class="menu-item"><span class="item-name">Lassi (Salted/Sweet)</span></div>
             <div class="menu-item"><span class="item-name">Fresh Lime Soda</span></div>
             <div class="menu-item"><span class="item-name">Mojito</span></div>
-            <div class="menu-item"><span class="item-name">Virgin Mojito</span></div>
-            <div class="menu-item"><span class="item-name">Mango Mojito</span></div>
             <div class="menu-item"><span class="item-name">Blueberry Mojito</span></div>
             <div class="menu-item"><span class="item-name">Blackcurrant Mojito</span></div>
             <div class="menu-item"><span class="item-name">Green Apple Mojito</span></div>
             <div class="menu-item"><span class="item-name">Blue Curacao Mojito</span></div>
             <div class="menu-item"><span class="item-name">Watermelon Mojito</span></div>
+            <div class="menu-item"><span class="item-name">Tea</span></div>
         </div>
 
-    </div>
+        <!-- Fries Section -->
+        <div class="menu-section">
+            <h2>Fries</h2>
+            <div class="menu-item"><span class="item-name">French Fries</span></div>
+            <div class="menu-item"><span class="item-name">Peri-Peri Fries</span></div>
+        </div>
 
+        <!-- Dosa Feast Section -->
+        <div class="menu-section">
+            <h2>Dosa Feast</h2>
+            <div class="menu-item"><span class="item-name">Plain Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Paper Cap Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Onion Masala Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Masala Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Rawa Plain Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Rawa Masala Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Rawa Paneer Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Mysore Plain Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Mysore Masala Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Noodles Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Hot Garlic Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Cheese Veggie Dosa</span></div>
+            <div class="menu-item"><span class="item-name">Mega Dosa (2.5 feet)</span></div>
+        </div>
+
+        <!-- Noodles Section -->
+        <div class="menu-section">
+            <h2>Noodles</h2>
+            <div class="menu-item"><span class="item-name">Veg Noodles</span></div>
+            <div class="menu-item"><span class="item-name">Hakka Noodles</span></div>
+            <div class="menu-item"><span class="item-name">Chilly Garlic Noodles</span></div>
+            <div class="menu-item"><span class="item-name">Singapuri Noodles</span></div>
+            <div class="menu-item"><span class="item-name">Hong Kong Noodles</span></div>
+        </div>
+
+        <!-- Cheese and Wok Section -->
+        <div class="menu-section">
+            <h2>Cheese and Wok</h2>
+            <div class="menu-item"><span class="item-name">Manchurian Dry</span></div>
+            <div class="menu-item"><span class="item-name">Manchurian Gravy</span></div>
+            <div class="menu-item"><span class="item-name">Cheese Chilly</span></div>
+            <div class="menu-item"><span class="item-name">Chilly Paneer Gravy</span></div>
+            <div class="menu-item"><span class="item-name">Mushroom Chilly</span></div>
+        </div>
+
+        <!-- Burger and Sandwiches Section -->
+        <div class="menu-section">
+            <h2>Burger and Sandwiches</h2>
+            <div class="menu-item"><span class="item-name">Desi Thela Burger</span></div>
+            <div class="menu-item"><span class="item-name">Veg Burger</span></div>
+            <div class="menu-item"><span class="item-name">Double Tikki Burger</span></div>
+            <div class="menu-item"><span class="item-name">Cheese Burger</span></div>
+            <div class="menu-item"><span class="item-name">Veg Sandwich</span></div>
+            <div class="menu-item"><span class="item-name">Veg Grilled Sandwich</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Sandwich</span></div>
+        </div>
+
+        <!-- Soup Section -->
+        <div class="menu-section">
+            <h2>Soup</h2>
+            <div class="menu-item"><span class="item-name">Vegetable Soup</span></div>
+            <div class="menu-item"><span class="item-name">Tomato Soup</span></div>
+            <div class="menu-item"><span class="item-name">Clear Soup</span></div>
+            <div class="menu-item"><span class="item-name">Hot and Sour Soup</span></div>
+            <div class="menu-item"><span class="item-name">Manchow Soup</span></div>
+            <div class="menu-item"><span class="item-name">Sweet Corn Soup</span></div>
+            <div class="menu-item"><span class="item-name">Cream Mushroom Soup</span></div>
+        </div>
+
+        <!-- Salad and Raita Section -->
+        <div class="menu-section">
+            <h2>Salad and Raita</h2>
+            <div class="menu-item"><span class="item-name">Dry Papad</span></div>
+            <div class="menu-item"><span class="item-name">Masala Papad</span></div>
+            <div class="menu-item"><span class="item-name">Cheese Masala Papad</span></div>
+            <div class="menu-item"><span class="item-name">Onion Salad</span></div>
+            <div class="menu-item"><span class="item-name">Green Salad</span></div>
+            <div class="menu-item"><span class="item-name">Cream Salad</span></div>
+            <div class="menu-item"><span class="item-name">Russian Salad</span></div>
+            <div class="menu-item"><span class="item-name">Plain Curd</span></div>
+            <div class="menu-item"><span class="item-name">Mix Veg. Raita</span></div>
+            <div class="menu-item"><span class="item-name">Boondi Raita</span></div>
+            <div class="menu-item"><span class="item-name">Pineapple Raita</span></div>
+        </div>
+
+        <!-- Paratha Section -->
+        <div class="menu-section">
+            <h2>Parantha</h2>
+            <div class="menu-item"><span class="item-name">Aloo Parantha</span></div>
+            <div class="menu-item"><span class="item-name">Onion Parantha</span></div>
+            <div class="menu-item"><span class="item-name">Gobhi Parantha</span></div>
+            <div class="menu-item"><span class="item-name">Mix Parantha</span></div>
+        </div>
+
+        <!-- Punjabi Thali Section -->
+        <div class="menu-section">
+            <h2>Punjabi Thali</h2>
+            <div class="menu-item"><span class="item-name">Yellow Dal, Raita, 2pc Missi</span></div>
+            <div class="menu-item"><span class="item-name">Roti, Salad</span></div>
+        </div>
+
+        <!-- North Indian Veg Thali Section -->
+        <div class="menu-section">
+            <h2>North Indian Veg Thali</h2>
+            <div class="menu-item"><span class="item-name">Dal Makhni, Paneer Butter Masala, Veg Rice, Salad, 2 Laccha Paratha or 4 Tandoori Roti or 4 Tawa Roti</span></div>
+        </div>
+
+        <!-- Special Thali Section -->
+        <div class="menu-section">
+            <h2>Special Thali</h2>
+            <div class="menu-item"><span class="item-name">Dal Makhni, Paneer Butter Masala, Veg Pulao, Salad, Raita, 2 Laccha Paratha or 4 Tawa Roti or 4 Tandoori Roti, Gulab Jamun or Cold Drink</span></div>
+        </div>
+
+        <!-- Cheese Platter Section -->
+        <div class="menu-section">
+            <h2>Cheese Platter</h2>
+            <div class="menu-item"><span class="item-name">Noodles, Manchurian, Cheese Chilly Fried Rice</span></div>
+        </div>
+
+        <!-- Family Platter Section -->
+        <div class="menu-section">
+            <h2>Family Platter</h2>
+            <div class="menu-item"><span class="item-name">Noodles, Manchurian, Dal Makhani, Paneer Butter Masala, Jeera Rice, Papad, Salad, 2 Laccha Paratha, 2 Butter Naan, 4 Pc. Gulab Jamun</span></div>
+        </div>
+
+        <!-- Rice Section -->
+        <div class="menu-section">
+            <h2>Rice</h2>
+            <div class="menu-item"><span class="item-name">Plain Rice</span></div>
+            <div class="menu-item"><span class="item-name">Jeera Rice</span></div>
+            <div class="menu-item"><span class="item-name">Peas Rice</span></div>
+            <div class="menu-item"><span class="item-name">Veg Pulao</span></div>
+            <div class="menu-item"><span class="item-name">Kashmiri Pulao</span></div>
+            <div class="menu-item"><span class="item-name">Fried Rice</span></div>
+            <div class="menu-item"><span class="item-name">Golden Garlic Fried Rice</span></div>
+        </div>
+
+        <!-- Biryani Section -->
+        <div class="menu-section">
+            <h2>Biryani</h2>
+            <div class="menu-item"><span class="item-name">Hyderabadi Biryani</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Dum Biryani</span></div>
+        </div>
+
+        <!-- Breads Section -->
+        <div class="menu-section">
+            <h2>Breads</h2>
+            <div class="menu-item"><span class="item-name">Tawa Roti</span></div>
+            <div class="menu-item"><span class="item-name">Plain Roti</span></div>
+            <div class="menu-item"><span class="item-name">Butter Roti</span></div>
+            <div class="menu-item"><span class="item-name">Cream Roti</span></div>
+            <div class="menu-item"><span class="item-name">Missi Roti</span></div>
+            <div class="menu-item"><span class="item-name">Laccha Paratha</span></div>
+            <div class="menu-item"><span class="item-name">Plain Naan</span></div>
+            <div class="menu-item"><span class="item-name">Butter Naan</span></div>
+            <div class="menu-item"><span class="item-name">Garlic Naan</span></div>
+            <div class="menu-item"><span class="item-name">Cheese Naan</span></div>
+            <div class="menu-item"><span class="item-name">Stuffed Naan</span></div>
+        </div>
+
+        <!-- Variety of Dal Section -->
+        <div class="menu-section">
+            <h2>Variety of Dal</h2>
+            <div class="menu-item"><span class="item-name">Dal Fry</span></div>
+            <div class="menu-item"><span class="item-name">Dal Makhani</span></div>
+            <div class="menu-item"><span class="item-name">Yellow Dal</span></div>
+            <div class="menu-item"><span class="item-name">Dal Handi</span></div>
+        </div>
+
+        <!-- Paneer Lover Section -->
+        <div class="menu-section">
+            <h2>Paneer Lover</h2>
+            <div class="menu-item"><span class="item-name">Malai Kofta</span></div>
+            <div class="menu-item"><span class="item-name">Shahi Paneer</span></div>
+            <div class="menu-item"><span class="item-name">Mutter Paneer</span></div>
+            <div class="menu-item"><span class="item-name">Palak Paneer</span></div>
+            <div class="menu-item"><span class="item-name">Cheese Tomato</span></div>
+            <div class="menu-item"><span class="item-name">Karahi Paneer</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Butter Masala</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Do Piazza</span></div>
+            <div class="menu-item"><span class="item-name">Rara Paneer</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Lababdar</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Pasand</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Bhurji</span></div>
+            <div class="menu-item"><span class="item-name">Cream Paneer</span></div>
+            <div class="menu-item"><span class="item-name">Lemon Paneer</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Tikka Masala</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Taka Tak</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Kadhai Masala</span></div>
+        </div>
+    </div>
 </body>
+
 </html>
